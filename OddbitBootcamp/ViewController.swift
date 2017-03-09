@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     
     var str = "String"
+    var word = "Gusde"
 
     override func viewDidLoad() {
         super.viewDidLoad()

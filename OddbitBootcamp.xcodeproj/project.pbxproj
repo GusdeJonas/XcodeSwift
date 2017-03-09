@@ -14,6 +14,7 @@
 		1933A6C01E70F436006AF66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1933A6BE1E70F436006AF66A /* LaunchScreen.storyboard */; };
 		1933A6CB1E70F436006AF66A /* OddbitBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6CA1E70F436006AF66A /* OddbitBootcampTests.swift */; };
 		1933A6D61E70F436006AF66A /* OddbitBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6D51E70F436006AF66A /* OddbitBootcampUITests.swift */; };
+		1933A6E41E70F9FE006AF66A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6E31E70F9FE006AF66A /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1933A6D11E70F436006AF66A /* OddbitBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddbitBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1933A6D51E70F436006AF66A /* OddbitBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddbitBootcampUITests.swift; sourceTree = "<group>"; };
 		1933A6D71E70F436006AF66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1933A6E31E70F9FE006AF66A /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1933A6BC1E70F436006AF66A /* Assets.xcassets */,
 				1933A6BE1E70F436006AF66A /* LaunchScreen.storyboard */,
 				1933A6C11E70F436006AF66A /* Info.plist */,
+				1933A6E31E70F9FE006AF66A /* Test.swift */,
 			);
 			path = OddbitBootcamp;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				1933A6B81E70F436006AF66A /* ViewController.swift in Sources */,
 				1933A6B61E70F436006AF66A /* AppDelegate.swift in Sources */,
+				1933A6E41E70F9FE006AF66A /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

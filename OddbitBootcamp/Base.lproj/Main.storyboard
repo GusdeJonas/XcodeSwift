@@ -51,6 +51,7 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="4kv-lM-qmh"/>
                                             </subviews>
                                         </view>
                                         <constraints>
@@ -58,14 +59,17 @@
                                             <constraint firstAttribute="trailing" secondItem="8wH-iP-xqr" secondAttribute="trailing" id="7nd-4p-plL"/>
                                             <constraint firstItem="cZo-7A-Vsh" firstAttribute="top" secondItem="3dP-9y-SAu" secondAttribute="bottom" constant="-2" id="9tO-vX-v3R"/>
                                             <constraint firstItem="8wH-iP-xqr" firstAttribute="leading" secondItem="W5a-mI-fnW" secondAttribute="leading" id="Fsk-dO-n3L"/>
+                                            <constraint firstItem="4kv-lM-qmh" firstAttribute="centerX" secondItem="8wH-iP-xqr" secondAttribute="centerX" id="Rt9-fI-OUb"/>
                                             <constraint firstAttribute="trailing" secondItem="3dP-9y-SAu" secondAttribute="trailing" id="TcN-i0-46y"/>
                                             <constraint firstItem="3dP-9y-SAu" firstAttribute="top" secondItem="8wH-iP-xqr" secondAttribute="bottom" constant="4" id="XTh-oC-oIf"/>
                                             <constraint firstItem="8wH-iP-xqr" firstAttribute="top" secondItem="W5a-mI-fnW" secondAttribute="top" id="YR4-2o-yMZ"/>
+                                            <constraint firstItem="4kv-lM-qmh" firstAttribute="centerY" secondItem="8wH-iP-xqr" secondAttribute="centerY" id="gjD-lu-6Em"/>
                                             <constraint firstItem="cZo-7A-Vsh" firstAttribute="leading" secondItem="W5a-mI-fnW" secondAttribute="leading" id="hZj-65-yu3"/>
                                             <constraint firstItem="3dP-9y-SAu" firstAttribute="leading" secondItem="W5a-mI-fnW" secondAttribute="leading" id="vMi-aK-gXw"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="descLabel" destination="cZo-7A-Vsh" id="9uq-7J-6dV"/>
+                                            <outlet property="loadingIndicator" destination="4kv-lM-qmh" id="zi3-9N-FeO"/>
                                             <outlet property="movieImageView" destination="8wH-iP-xqr" id="QEt-TV-dbl"/>
                                             <outlet property="titleLabel" destination="3dP-9y-SAu" id="eAC-wJ-WOJ"/>
                                         </connections>

@@ -16,6 +16,11 @@
 		1933A6D61E70F436006AF66A /* OddbitBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6D51E70F436006AF66A /* OddbitBootcampUITests.swift */; };
 		1933A6E41E70F9FE006AF66A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6E31E70F9FE006AF66A /* Test.swift */; };
 		1933A6F11E7133C1006AF66A /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6F01E7133C1006AF66A /* MovieViewCell.swift */; };
+		1933A6F51E7150AF006AF66A /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6F31E7150AF006AF66A /* test.c */; };
+		1933A6F71E7151A2006AF66A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6F61E7151A2006AF66A /* Constant.swift */; };
+		1B693F0C93750E4635554361 /* Pods_OddbitBootcampTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20A6FBD0774FBAC7B52072E /* Pods_OddbitBootcampTests.framework */; };
+		476E7513D54A0EC68CE8DC30 /* Pods_OddbitBootcamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4D27B250F09CCECB7EC492 /* Pods_OddbitBootcamp.framework */; };
+		E6936FFCA691C908A0A390CF /* Pods_OddbitBootcampUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20796B82EF39D5C471AA4855 /* Pods_OddbitBootcampUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069B5F34AF02EFB811AE593A /* Pods-OddbitBootcamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcamp/Pods-OddbitBootcamp.debug.xcconfig"; sourceTree = "<group>"; };
+		0CEC5E932042E12908F7D600 /* Pods-OddbitBootcampUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcampUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcampUITests/Pods-OddbitBootcampUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1933A6B21E70F436006AF66A /* OddbitBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddbitBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1933A6B51E70F436006AF66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1933A6B71E70F436006AF66A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +59,17 @@
 		1933A6E31E70F9FE006AF66A /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		1933A6E51E70FFEB006AF66A /* Training.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Training.playground; sourceTree = "<group>"; };
 		1933A6F01E7133C1006AF66A /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		1933A6F21E7150AF006AF66A /* OddbitBootcamp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OddbitBootcamp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1933A6F31E7150AF006AF66A /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		1933A6F41E7150AF006AF66A /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		1933A6F61E7151A2006AF66A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		20796B82EF39D5C471AA4855 /* Pods_OddbitBootcampUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OddbitBootcampUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66836CC011401BBC8107780E /* Pods-OddbitBootcampUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcampUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcampUITests/Pods-OddbitBootcampUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		669D233A4FB8F5CED38856FC /* Pods-OddbitBootcampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcampTests/Pods-OddbitBootcampTests.release.xcconfig"; sourceTree = "<group>"; };
+		D04F3DACFC05488B11913002 /* Pods-OddbitBootcampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcampTests/Pods-OddbitBootcampTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D20A6FBD0774FBAC7B52072E /* Pods_OddbitBootcampTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OddbitBootcampTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4D27B250F09CCECB7EC492 /* Pods_OddbitBootcamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OddbitBootcamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6E1ED954DA93C90DAC5089 /* Pods-OddbitBootcamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcamp/Pods-OddbitBootcamp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476E7513D54A0EC68CE8DC30 /* Pods_OddbitBootcamp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B693F0C93750E4635554361 /* Pods_OddbitBootcampTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +93,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6936FFCA691C908A0A390CF /* Pods_OddbitBootcampUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106D83F009280213815DDA39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				069B5F34AF02EFB811AE593A /* Pods-OddbitBootcamp.debug.xcconfig */,
+				EC6E1ED954DA93C90DAC5089 /* Pods-OddbitBootcamp.release.xcconfig */,
+				D04F3DACFC05488B11913002 /* Pods-OddbitBootcampTests.debug.xcconfig */,
+				669D233A4FB8F5CED38856FC /* Pods-OddbitBootcampTests.release.xcconfig */,
+				66836CC011401BBC8107780E /* Pods-OddbitBootcampUITests.debug.xcconfig */,
+				0CEC5E932042E12908F7D600 /* Pods-OddbitBootcampUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1933A6A91E70F435006AF66A = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +120,8 @@
 				1933A6C91E70F436006AF66A /* OddbitBootcampTests */,
 				1933A6D41E70F436006AF66A /* OddbitBootcampUITests */,
 				1933A6B31E70F436006AF66A /* Products */,
+				106D83F009280213815DDA39 /* Pods */,
+				BA5FE97DEBE3477240C03C39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +147,10 @@
 				1933A6C11E70F436006AF66A /* Info.plist */,
 				1933A6E31E70F9FE006AF66A /* Test.swift */,
 				1933A6E51E70FFEB006AF66A /* Training.playground */,
+				1933A6F31E7150AF006AF66A /* test.c */,
+				1933A6F41E7150AF006AF66A /* test.h */,
+				1933A6F21E7150AF006AF66A /* OddbitBootcamp-Bridging-Header.h */,
+				1933A6F61E7151A2006AF66A /* Constant.swift */,
 			);
 			path = OddbitBootcamp;
 			sourceTree = "<group>";
@@ -181,6 +221,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BA5FE97DEBE3477240C03C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC4D27B250F09CCECB7EC492 /* Pods_OddbitBootcamp.framework */,
+				D20A6FBD0774FBAC7B52072E /* Pods_OddbitBootcampTests.framework */,
+				20796B82EF39D5C471AA4855 /* Pods_OddbitBootcampUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1933A6DA1E70F436006AF66A /* Build configuration list for PBXNativeTarget "OddbitBootcamp" */;
 			buildPhases = (
+				BE485729CB075C08FF57520B /* [CP] Check Pods Manifest.lock */,
 				1933A6AE1E70F436006AF66A /* Sources */,
 				1933A6AF1E70F436006AF66A /* Frameworks */,
 				1933A6B01E70F436006AF66A /* Resources */,
+				F81669FD2765CDC7CA9187B3 /* [CP] Embed Pods Frameworks */,
+				F4E3EE4381F7E7A156388172 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1933A6DD1E70F436006AF66A /* Build configuration list for PBXNativeTarget "OddbitBootcampTests" */;
 			buildPhases = (
+				46A63E60BEC341CE174D15C7 /* [CP] Check Pods Manifest.lock */,
 				1933A6C21E70F436006AF66A /* Sources */,
 				1933A6C31E70F436006AF66A /* Frameworks */,
 				1933A6C41E70F436006AF66A /* Resources */,
+				4BB5EFC8E285BDE8F071B995 /* [CP] Embed Pods Frameworks */,
+				8DFF340BF3EEC72974C463C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1933A6E01E70F436006AF66A /* Build configuration list for PBXNativeTarget "OddbitBootcampUITests" */;
 			buildPhases = (
+				289BB20AD9F76CCB14A07082 /* [CP] Check Pods Manifest.lock */,
 				1933A6CD1E70F436006AF66A /* Sources */,
 				1933A6CE1E70F436006AF66A /* Frameworks */,
 				1933A6CF1E70F436006AF66A /* Resources */,
+				77FA92FE1AD314875FA3739D /* [CP] Embed Pods Frameworks */,
+				976D1E6C41AB94EC5206EC7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +309,7 @@
 					1933A6B11E70F436006AF66A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = CZGXB8JETN;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					1933A6C51E70F436006AF66A = {
@@ -313,15 +373,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		289BB20AD9F76CCB14A07082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46A63E60BEC341CE174D15C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BB5EFC8E285BDE8F071B995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OddbitBootcampTests/Pods-OddbitBootcampTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FA92FE1AD314875FA3739D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OddbitBootcampUITests/Pods-OddbitBootcampUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFF340BF3EEC72974C463C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OddbitBootcampTests/Pods-OddbitBootcampTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976D1E6C41AB94EC5206EC7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OddbitBootcampUITests/Pods-OddbitBootcampUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE485729CB075C08FF57520B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E3EE4381F7E7A156388172 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OddbitBootcamp/Pods-OddbitBootcamp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81669FD2765CDC7CA9187B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OddbitBootcamp/Pods-OddbitBootcamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1933A6AE1E70F436006AF66A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1933A6F51E7150AF006AF66A /* test.c in Sources */,
 				1933A6B81E70F436006AF66A /* ViewController.swift in Sources */,
 				1933A6F11E7133C1006AF66A /* MovieViewCell.swift in Sources */,
 				1933A6B61E70F436006AF66A /* AppDelegate.swift in Sources */,
 				1933A6E41E70F9FE006AF66A /* Test.swift in Sources */,
+				1933A6F71E7151A2006AF66A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,32 +671,40 @@
 		};
 		1933A6DB1E70F436006AF66A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069B5F34AF02EFB811AE593A /* Pods-OddbitBootcamp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CZGXB8JETN;
 				INFOPLIST_FILE = OddbitBootcamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gusdechandrariz.OddbitBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OddbitBootcamp/OddbitBootcamp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1933A6DC1E70F436006AF66A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6E1ED954DA93C90DAC5089 /* Pods-OddbitBootcamp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CZGXB8JETN;
 				INFOPLIST_FILE = OddbitBootcamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gusdechandrariz.OddbitBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OddbitBootcamp/OddbitBootcamp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		1933A6DE1E70F436006AF66A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04F3DACFC05488B11913002 /* Pods-OddbitBootcampTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +720,7 @@
 		};
 		1933A6DF1E70F436006AF66A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669D233A4FB8F5CED38856FC /* Pods-OddbitBootcampTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +736,7 @@
 		};
 		1933A6E11E70F436006AF66A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66836CC011401BBC8107780E /* Pods-OddbitBootcampUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CZGXB8JETN;
@@ -541,6 +751,7 @@
 		};
 		1933A6E21E70F436006AF66A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC5E932042E12908F7D600 /* Pods-OddbitBootcampUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CZGXB8JETN;

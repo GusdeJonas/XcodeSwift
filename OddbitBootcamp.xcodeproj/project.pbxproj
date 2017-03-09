@@ -15,6 +15,7 @@
 		1933A6CB1E70F436006AF66A /* OddbitBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6CA1E70F436006AF66A /* OddbitBootcampTests.swift */; };
 		1933A6D61E70F436006AF66A /* OddbitBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6D51E70F436006AF66A /* OddbitBootcampUITests.swift */; };
 		1933A6E41E70F9FE006AF66A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6E31E70F9FE006AF66A /* Test.swift */; };
+		1933A6F11E7133C1006AF66A /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6F01E7133C1006AF66A /* MovieViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1933A6D71E70F436006AF66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1933A6E31E70F9FE006AF66A /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		1933A6E51E70FFEB006AF66A /* Training.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Training.playground; sourceTree = "<group>"; };
+		1933A6F01E7133C1006AF66A /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		1933A6B41E70F436006AF66A /* OddbitBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				1933A6EA1E713316006AF66A /* Classes */,
 				1933A6B51E70F436006AF66A /* AppDelegate.swift */,
 				1933A6B71E70F436006AF66A /* ViewController.swift */,
 				1933A6B91E70F436006AF66A /* Main.storyboard */,
@@ -128,6 +131,54 @@
 				1933A6D71E70F436006AF66A /* Info.plist */,
 			);
 			path = OddbitBootcampUITests;
+			sourceTree = "<group>";
+		};
+		1933A6EA1E713316006AF66A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1933A6EB1E713316006AF66A /* Controllers */,
+				1933A6EC1E713316006AF66A /* Engine */,
+				1933A6ED1E713316006AF66A /* Models */,
+				1933A6EE1E713316006AF66A /* Utils */,
+				1933A6EF1E713316006AF66A /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1933A6EB1E713316006AF66A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1933A6EC1E713316006AF66A /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		1933A6ED1E713316006AF66A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1933A6EE1E713316006AF66A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1933A6EF1E713316006AF66A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1933A6F01E7133C1006AF66A /* MovieViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1933A6B81E70F436006AF66A /* ViewController.swift in Sources */,
+				1933A6F11E7133C1006AF66A /* MovieViewCell.swift in Sources */,
 				1933A6B61E70F436006AF66A /* AppDelegate.swift in Sources */,
 				1933A6E41E70F9FE006AF66A /* Test.swift in Sources */,
 			);

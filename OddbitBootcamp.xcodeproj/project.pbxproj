@@ -20,6 +20,7 @@
 		1933A6F71E7151A2006AF66A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6F61E7151A2006AF66A /* Constant.swift */; };
 		1933A6F91E723E58006AF66A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6F81E723E58006AF66A /* MovieModel.swift */; };
 		1933A6FB1E724013006AF66A /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6FA1E724013006AF66A /* Engine.swift */; };
+		1933A6FD1E7241B9006AF66A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933A6FC1E7241B9006AF66A /* Endpoint.swift */; };
 		1B693F0C93750E4635554361 /* Pods_OddbitBootcampTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20A6FBD0774FBAC7B52072E /* Pods_OddbitBootcampTests.framework */; };
 		476E7513D54A0EC68CE8DC30 /* Pods_OddbitBootcamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4D27B250F09CCECB7EC492 /* Pods_OddbitBootcamp.framework */; };
 		E6936FFCA691C908A0A390CF /* Pods_OddbitBootcampUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20796B82EF39D5C471AA4855 /* Pods_OddbitBootcampUITests.framework */; };
@@ -67,6 +68,7 @@
 		1933A6F61E7151A2006AF66A /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1933A6F81E723E58006AF66A /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		1933A6FA1E724013006AF66A /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		1933A6FC1E7241B9006AF66A /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		20796B82EF39D5C471AA4855 /* Pods_OddbitBootcampUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OddbitBootcampUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66836CC011401BBC8107780E /* Pods-OddbitBootcampUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcampUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcampUITests/Pods-OddbitBootcampUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		669D233A4FB8F5CED38856FC /* Pods-OddbitBootcampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OddbitBootcampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OddbitBootcampTests/Pods-OddbitBootcampTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				1933A6F41E7150AF006AF66A /* test.h */,
 				1933A6F21E7150AF006AF66A /* OddbitBootcamp-Bridging-Header.h */,
 				1933A6F61E7151A2006AF66A /* Constant.swift */,
+				1933A6FC1E7241B9006AF66A /* Endpoint.swift */,
 			);
 			path = OddbitBootcamp;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1933A6F91E723E58006AF66A /* MovieModel.swift in Sources */,
+				1933A6FD1E7241B9006AF66A /* Endpoint.swift in Sources */,
 				1933A6F51E7150AF006AF66A /* test.c in Sources */,
 				1933A6B81E70F436006AF66A /* ViewController.swift in Sources */,
 				1933A6F11E7133C1006AF66A /* MovieViewCell.swift in Sources */,

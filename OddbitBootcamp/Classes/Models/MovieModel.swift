@@ -24,6 +24,13 @@ class MovieModel: NSObject{
     var voteAverage : Float?
     var voteCount : Int?
     
+    var imageUrl: URL? {
+        guard let posterPath = posterPath else{
+            return nil
+        }
+        return URL(string: "\(IMAGE_BASE_URL)\(posterPath)")
+    }
+    
     init(json: JSON) {
         self.adult = json["adult"].bool
         self.backdropPath = json["backdrop_path"].string

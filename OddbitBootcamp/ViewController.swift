@@ -8,13 +8,6 @@
 
 import UIKit
 
-struct Movie {
-    
-    let title: String
-    let genre: String
-    
-    
-}
 
 
 class ViewController: UIViewController {
@@ -26,15 +19,7 @@ class ViewController: UIViewController {
     var refreshControl : UIRefreshControl = UIRefreshControl()
     var iImage = 1
     
-    var arrayMovie : [Movie] = [
-        Movie(title: "Kingsglaive Final Fantasy XV", genre: "Animation, Fiction"),
-        Movie(title: "Jonas Brothers", genre: "Music"),
-        Movie(title: "Kingsglaive Final Fantasy XV", genre: "Animation, Fiction"),
-        Movie(title: "Jonas Brothers", genre: "Music"),
-        Movie(title: "Kingsglaive Final Fantasy XV", genre: "Animation, Fiction"),
-        Movie(title: "Jonas Brothers", genre: "Music"),
-    
-    ]
+    var arrayMovie : [MovieModel] = []
     
     
     override func viewDidLoad() {
@@ -42,6 +27,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         setupCollectionView()
+        refreshControl.beginRefreshing()
+        downloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,6 +38,35 @@ class ViewController: UIViewController {
             
             
         }
+    
+    //MARK : - DATA
+    func downloadData(){
+        Engine.shared.getlistMovie { [weak self] (result, error) in
+            guard let strongSelf = self else {return}
+            
+            strongSelf.refreshControl.endRefreshing()
+            
+            if let result = result as? [MovieModel]{
+                
+                strongSelf.arrayMovie = result
+                strongSelf.movieCollectionView.reloadData()
+                
+            }else if let error = error{
+                let alert = UIAlertController.init(title: "error", message: error.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
+                
+                let okAction = UIAlertAction.init(title: "OK", style: UIAlertActionStyle.cancel, handler: nil)
+                alert.addAction(okAction)
+                
+                strongSelf.present(alert, animated: true, completion: nil)
+                
+            }else{}
+        }
+    }
+    
+    
+    
+    
+    
     
     //MARK: - Configure
     func setupCollectionView(){
@@ -76,12 +92,8 @@ class ViewController: UIViewController {
     
     //MARK: - Action
     func refresh(sender: UIRefreshControl){
-        iImage += 10
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2){
-            self.movieCollectionView.reloadData()
-            self.refreshControl.endRefreshing()
-        }
+        refreshControl.beginRefreshing()
+        downloadData()
     }
 
 
@@ -102,7 +114,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate{
         let movie = arrayMovie[indexPath.item]
         
         
-        if let url = URL(string: "\(IMAGE_URL)\((indexPath.item + 1) * iImage)") {
+        if let url = movie.imageUrl {
         cell.loadingIndicator.startAnimating()
         cell.movieImageView.sd_setImage(with: url, completed: {
                 (image, error, chache, url) in
@@ -114,8 +126,8 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate{
         }
         
         
-        cell.titleLabel.text = movie.title.uppercased()
-        cell.descLabel.text = movie.genre
+        cell.titleLabel.text = movie.title?.uppercased()
+        cell.descLabel.text = movie.overview
         
         
         return cell 

@@ -103,11 +103,8 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate{
         
         
         if let url = URL(string: "\(IMAGE_URL)\((indexPath.item + 1) * iImage)") {
-            
         cell.loadingIndicator.startAnimating()
-            
-            
-            cell.movieImageView.sd_setImage(with: url, completed: {
+        cell.movieImageView.sd_setImage(with: url, completed: {
                 (image, error, chache, url) in
                 
                 if error == nil{
